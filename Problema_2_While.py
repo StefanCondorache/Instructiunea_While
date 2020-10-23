@@ -8,7 +8,7 @@ total_poz=0
 total_neg=0
 while luna<13:
     temp=eval(input("temperatura:"))
-    if temp>0:
+    if temp>=0:
         temp_p=temp
         nr_poz+=1
         total_poz+=temp_p
